@@ -13,7 +13,7 @@ tmpfs on /etc/resolv.conf type tmpfs ...
 
 这种机制可以让宿主主机 DNS 信息发生更新后，所有 Docker 容器的 DNS 配置通过 `/etc/resolv.conf` 文件立刻得到更新。
 
-配置全部容器的 DNS ，也可以在 `/etc/docker/daemon.json` 文件中增加以下内容来设置。
+配置全部容器的 DNS ，也可以在 `/etc/docker/deamon.json` 文件中增加以下内容来设置。
 
 ```json
 {
